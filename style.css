@@ -1,0 +1,83 @@
+.blue {
+	background: #50c6db;
+}
+
+.green {
+	background: #51bb7b;
+}
+
+.yellow {
+	background: #f0ce15;
+}
+
+.orange {
+	background: #f47820;
+}
+
+.red {
+	background: #ef4e65;
+}
+
+.pink {
+	background: #e0368c;
+}
+
+.purple {
+	background: #8350a0;
+}
+
+.dark-blue {
+	background: #01516e;
+}
+
+.grey {
+	background: #5d5e5e;
+}
+
+* {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 36px;
+	margin: 0;
+	color: #fff;
+}
+
+.wrapper {
+	max-width: 70%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1, h1 > a {
+	font-size: 1.5em;
+	margin: .5em 0 1em 0;
+	color: #fff;
+	text-decoration: none;
+}
+
+h1 > a:hover {
+	color: pink;
+}
+
+h2 {
+	font-size: 1.4em;
+	margin: .5em 0 1em 0;
+}
+
+.unicorn {
+	font-size: 2em;
+}
+
+ul {
+	list-style-type: "✦ ";
+}
+
+.slide {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
